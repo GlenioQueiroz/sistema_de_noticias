@@ -1,0 +1,14 @@
+PYTHON = python3
+MAIN = main.py
+
+run:
+	$(PYTHON) $(MAIN)
+
+clean:
+	find . -type d -name "__pycache__" -exec rm -rf {} +
+	find . -type f -name "*.pyc" -delete
+
+help:
+	@echo "Comandos disponíveis:"
+	@echo "  make run    - Executa o sistema"
+	@echo "  make clean  - Remove arquivos temporários do Python"
