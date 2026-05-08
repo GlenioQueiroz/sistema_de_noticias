@@ -32,13 +32,6 @@ Na raiz do projeto, execute:
 ```bash
 python main.py
 ```
-
-## Principais melhorias aplicadas
-
-- Renomeação de funções e variáveis para nomes mais descritivos.
-- Separação do código em módulos de modelo, serviço e interface.
-- Validação de entradas do usuário.
-- Tratamento de erros simples com mensagens claras.
 - Remoção de comentários redundantes.
 - Inclusão de docstrings e documentação básica do projeto.
 
