@@ -32,9 +32,3 @@ Na raiz do projeto, execute:
 ```bash
 python main.py
 ```
-- Remoção de comentários redundantes.
-- Inclusão de docstrings e documentação básica do projeto.
-
-## Observação
-
-O sistema preserva o comportamento principal do código original, mas organiza a implementação para facilitar manutenção e evolução.
